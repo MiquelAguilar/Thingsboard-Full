@@ -1,0 +1,6 @@
+[Unit]
+Description=Fivecomm iotProxy service
+[Service]
+ExecStart=/root/services/aplicationLoader.sh
+[Install]
+WantedBy=multi-user.target
